@@ -44,11 +44,10 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">
             Partnerships Manager - Edhesive
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            New York, NY
-          </h4>
+          <h4 className="vertical-timeline-element-subtitle">New York, NY</h4>
           <p>
-            Drove initiatives to get high-quality computer science curriculum into nearly 2500 high school and middle school classrooms.
+            Drove initiatives to get high-quality computer science curriculum
+            into nearly 2500 high school and middle school classrooms.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -60,11 +59,10 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">
             Product Manager - Project STEM
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            New York, NY
-          </h4>
+          <h4 className="vertical-timeline-element-subtitle">New York, NY</h4>
           <p>
-            Led product development for engaging computer science resources in topics including Python, Java, Scratch, and Artificial Intelligence.
+            Led product development for engaging computer science resources in
+            topics including Python, Java, Scratch, and Artificial Intelligence.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -73,13 +71,19 @@ function Experience() {
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
-          <h3 className="vertical-timeline-element-title">
-            Flatiron School
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            New York, NY
-          </h4>
+          <h3 className="vertical-timeline-element-title">Flatiron School</h3>
+          <h4 className="vertical-timeline-element-subtitle">New York, NY</h4>
           <p>Certificate, Full-Stack Software Engineering</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2022"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">DebtBook</h3>
+          <h4 className="vertical-timeline-element-subtitle">Remote</h4>
+          <p>Associate Software Engineer</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
